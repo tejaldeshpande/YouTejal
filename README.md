@@ -1,5 +1,7 @@
 # youtube-project
 
+https://tejaldeshpande.github.io/YouTejal/
+
 ## Project setup
 ```
 npm install
