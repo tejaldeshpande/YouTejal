@@ -1,0 +1,27 @@
+[
+    {
+        "etag": "1",
+        "name": "example 1",
+        "img": "images/box1.jpg"
+    },
+    {
+        "etag": "2",
+        "name": "example 2",
+        "img": "images/box2.jpg"
+    },
+    {
+        "etag": "3",
+        "name": "example 3",
+        "img": "images/box3.jpg"
+    },
+    {
+        "etag": "4",
+        "name": "example 4",
+        "img": "images/box4.jpg"
+    },
+    {
+        "etag": "5",
+        "name": "example 5",
+        "img": "images/box5.jpg"
+    }
+]
