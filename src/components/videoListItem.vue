@@ -24,8 +24,11 @@ export default {
         clickedVideo(video){
             this.$emit('videoChange', video);
             this.$store.commit('setVideoPlaying', video.etag);   
-            var videoPlayer = document.getElementById("videoDetail");
-            videoPlayer.scrollIntoView();         
+            if(window.innerWidth <= 768) {
+                var videoPlayer = document.getElementById("videoDetail");
+                videoPlayer.scrollIntoView();    
+            }
+                 
         }
     },
     computed: {
@@ -43,6 +46,9 @@ export default {
 
 <style scoped>
 
+.videoListItem{
+    
+}
 .active{
     opacity: 0.7;
     background: #9e9e9e;

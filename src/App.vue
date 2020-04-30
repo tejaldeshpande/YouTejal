@@ -71,7 +71,10 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
+body,html{
+    scroll-behavior: smooth;
+}
 #app{
     background: #fcfcfc;
 }
