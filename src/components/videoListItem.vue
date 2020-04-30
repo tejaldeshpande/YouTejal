@@ -24,8 +24,10 @@ export default {
         clickedVideo(video){
             this.$emit('videoChange', video);
             this.$store.commit('setVideoPlaying', video.etag);   
-            var videoPlayer = document.getElementById("videoDetail");
-            videoPlayer.scrollIntoView();         
+            if(window.innerWidth <= 768) {
+                var videoPlayer = document.getElementById("videoDetail");
+                videoPlayer.scrollIntoView();    
+            }         
         }
     },
     computed: {
